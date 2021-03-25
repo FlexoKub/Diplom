@@ -11,7 +11,7 @@ const menu = () => {
                 behavior: "smooth",
                 block: "start"
             });
-        })
+        });
     }
 
     const btnMenu = document.querySelector('.mob-menu-btn'),
