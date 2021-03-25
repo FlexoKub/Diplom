@@ -1,0 +1,30 @@
+{
+  "name": "diplom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.dev.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlexoKub/Diplom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlexoKub/Diplom/issues"
+  },
+  "homepage": "https://github.com/FlexoKub/Diplom#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

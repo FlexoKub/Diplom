@@ -5,14 +5,13 @@ import modalСallback from './modules/modalСallback';
 import menu from './modules/menu';
 import slider from './modules/slider';
 import servicesCarusel from './modules/servicesCarusel';
-import buttonServices from './modules/buttonServices';
 import tabs from './modules/tabs';
 import arrow from './modules/arrow';
 import validForm from './modules/validForm';
 import sendForm from './modules/sendForm';
 
 
-    //1и2 окно заказать звонок
+    //1и2и6 окно заказать звонок
     modalСallback();
     //3 меню
     menu();
@@ -20,8 +19,6 @@ import sendForm from './modules/sendForm';
     slider();
     //5 услуги карусель
     servicesCarusel();
-    //6 кнопка 
-    buttonServices();
     //7 табы аккордеон
     tabs();
     //8 стрелка возврата

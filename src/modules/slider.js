@@ -1,5 +1,7 @@
+'use strict';
 
 const slider = () => {
+/*
     const slide = document.querySelectorAll('.portfolio-item'),
         btn = document.querySelectorAll('.portfolio-btn'),
         // dot = document.querySelectorAll('.dot'),
@@ -96,7 +98,7 @@ const slider = () => {
             startSlide();
         }
     });
-
+*/
     };
 
     export default slider;
