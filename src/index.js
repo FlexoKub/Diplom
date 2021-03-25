@@ -21,7 +21,7 @@ import sendForm from './modules/sendForm';
     servicesCarusel();
     //7 табы аккордеон
     tabs();
-    //8 стрелка возврата
+    //8 плавный скролл
     arrow();
     //9 валидация формы
     validForm();
