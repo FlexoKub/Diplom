@@ -3,13 +3,9 @@
 const slider = () => {
 
     const slide = document.querySelectorAll('.item'),
-        // btn = document.querySelectorAll('.portfolio-btn'),
-        // dot = document.querySelectorAll('.dot'),
         slider = document.querySelector('.top-slider'),
         ul = document.querySelector('.dots');
 
-        
-        
         const newDot = () => {
             for (let i=0; i<=slide.length-1; i++){
                 let newDot = document.createElement('li');
@@ -84,7 +80,7 @@ const slider = () => {
     nextSlide(slide,currentSlide, 'item-active');
         nextSlide(dot, currentSlide, 'dot-active');
     });
-    //наведение на стрелки или точки
+    //наведение на точки
     slider.addEventListener('mouseover', (event) => {
         if(
         event.target.matches('.dot')) {
