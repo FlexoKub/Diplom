@@ -850,18 +850,7 @@ hr.white {
 .top-slider .slick-dots li.slick-active {
 	background-color: #fff !important;
 }
-/* .top-slider {
-	overflow: hidden;
-	height: 450px;
-	position: relative;
-	display: block;
-} */
-/* .top-slider .item {
-	overflow: hidden;
-	height: 450px;
-	position: relative;
-	
-} */
+
 .top-slider {
     position: relative;
     height: 775px;
@@ -960,13 +949,13 @@ video#video_background {
 	z-index: 1;
 }
 
+.top-slider .item {
+	height: 400px;
+}
+.top-slider {
+	height: 400px;
+}
 @media only screen and (min-width: 768px) {
-	.top-slider .item {
-		height: 400px;
-	}
-	.top-slider {
-		height: 400px;
-	}
 	.header-push {
 		height: 100px;
 		-webkit-transition: all 200ms ease-out;
@@ -986,7 +975,7 @@ video#video_background {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 992px) {
 	.top-slider .item {
 		height: 520px;
 	}
@@ -994,12 +983,13 @@ video#video_background {
 		height: 520px;
 	}
 	.top-slider .table {
-		opacity: 0;
-		visibility: hidden;
-		-webkit-transform: scale(1.5);
-		-ms-transform: scale(1.5);
-		-o-transform: scale(1.5);
-		transform: scale(1.5);
+		opacity: 1;
+		/* visibility: hidden; */
+		/* overflow: hidden; */
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
 		-webkit-transition: 0.5s;
 		-o-transition: 0.5s;
 		transition: 0.5s;
