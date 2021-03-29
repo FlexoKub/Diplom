@@ -32,7 +32,6 @@ const modalСallback = () => {
         modalClose = document.querySelector('.modal-close'),
         modalOverlay = document.querySelector('.modal-overlay'),
         
-        
         form = document.getElementById('form'),
         name = document.querySelector('.fio'),
         phone = document.querySelector('.tel');
