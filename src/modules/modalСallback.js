@@ -1,6 +1,7 @@
 'use strict';
 
 const modalСallback = () => {
+    
      //убираем скролл
         const disableScroll = function() {
         //ширина скролла чтобы добавить padding-right при отключении Scroll 
@@ -41,6 +42,7 @@ const modalСallback = () => {
         elem.addEventListener('click', blockCallback);
     });
     
+    
     const noneCallback = () => {
         modalOverlay.style.display = 'none';
         modalCallback.style.display = 'none';
@@ -49,7 +51,5 @@ const modalСallback = () => {
     modalOverlay.addEventListener('click', noneCallback); 
     modalClose.addEventListener('click', noneCallback); 
 
-   
     };
-
     export default modalСallback;
