@@ -11,7 +11,6 @@ const sendForm = () => {
     const statusMessage = document.createElement('div');
         statusMessage.style.cssText = 'font-size: 2rem; color: #2fab6d';
 
-        
     const postData = (body) => {
         return fetch('./server.php', {
             method: 'POST',

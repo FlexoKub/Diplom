@@ -30,7 +30,11 @@ const modalСallback = () => {
         
         modalCallback = document.querySelector('.modal-callback'),
         modalClose = document.querySelector('.modal-close'),
-        modalOverlay = document.querySelector('.modal-overlay');
+        modalOverlay = document.querySelector('.modal-overlay'),
+        
+        form = document.getElementById('form'),
+        name = document.querySelector('.fio'),
+        phone = document.querySelector('.tel');
     
         const blockCallback = () => {
         modalCallback.style.display = 'block';
@@ -47,6 +51,11 @@ const modalСallback = () => {
         modalOverlay.style.display = 'none';
         modalCallback.style.display = 'none';
         enableScroll();
+        
+        name.value = '';
+        phone.value = '';
+        name.style.border = '';
+        phone.style.border = '';
     };
     modalOverlay.addEventListener('click', noneCallback); 
     modalClose.addEventListener('click', noneCallback); 
