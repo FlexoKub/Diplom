@@ -13,6 +13,8 @@ const validForm = () => {
     };
     name.addEventListener('input', funcName);
     phone.addEventListener('input', funcPhone);
+    
+    
 };
 
 export default validForm;
